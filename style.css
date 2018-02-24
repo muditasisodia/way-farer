@@ -1,0 +1,61 @@
+.jumbotron{
+  background: url("images/homeBG.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  text-align: center;
+  padding-top:none;
+}
+
+.nav{
+  margin-top: 0px;
+}
+
+.nav-custom{
+  margin-top: 0px;
+}
+
+.navbar-nav{
+  margin-top: 0px;
+}
+
+
+.ques{
+  font-family: 'Bellefair', serif;
+  padding-top: 100px;
+}
+
+form{
+  padding:20px;
+}
+
+.nav-custom{
+  //make all elements within nav-custom have grey bg and black text
+  color: #000;
+  background: rgba(43, 43, 43, 0);
+  margin-top: 0px;
+}
+
+.nav-custom a{
+  //make all hyperlinks within nav-custom have black text
+  color:#000;
+}
+
+.nav-custom:hover{
+  background: rgba(43, 43, 43, 1);
+}
+
+/*a{
+  text-decoration: none;
+}*/
+
+.card{
+  padding:15px;
+  width:95%;
+  border: 1px solid #222;
+  border-radius: 5px;
+}
+
+ul{
+  list-style-type: none;
+}
