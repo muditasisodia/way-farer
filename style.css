@@ -1,61 +1,109 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+*/
 .jumbotron{
-  background: url("images/homeBG.jpeg");
+  background: url("images/homeBG3.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   text-align: center;
-  padding-top: 0; 
+  padding-top: 0;
+  background-attachment: fixed;
 }
 
-.nav{
-  margin-top: 0px;
+html, body{
+  height:100%;
 }
-
-.nav-custom{
-  margin-top: 0px;
-}
-
-.navbar-nav{
-  margin-top: 0px;
-}
-
 
 .ques{
-  font-family: 'Bellefair', serif;
-  padding-top: 100px;
+  font-family: 'Satisfy', cursive;
+  padding-top: 75px;
+}
+
+.logo{
+  background:radial-gradient(circle, rgba(0,0,0,0.7), rgba(0,0,0,0.4), rgba(0,0,0,0), rgba(0,0,0,0));
+  height:250px;
+  width:250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 43%;
+  left:40%;
+  align-items: center;
+  /*border: 1px solid #000;*/
+  border-radius: 50%;
+}
+
+.logo > img{
+/*  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;*/
+  padding-top: 10%;
+  height:200px;
+
 }
 
 form{
   padding:20px;
 }
 
-.nav-custom{
-  //make all elements within nav-custom have grey bg and black text
-  color: #000;
-  background: rgba(43, 43, 43, 0);
-  margin-top: 0px;
-}
-
-.nav-custom a{
-  //make all hyperlinks within nav-custom have black text
-  color:#000;
-}
-
-.nav-custom:hover{
-  background: rgba(43, 43, 43, 1);
-}
-
-/*a{
-  text-decoration: none;
-}*/
-
-.card{
-  padding:15px;
-  width:95%;
-  border: 1px solid #222;
-  border-radius: 5px;
-}
-
 ul{
   list-style-type: none;
+}
+
+
+.form-control, .btn-default{
+  background: rgba(255, 255, 255, 0.7);
+}
+
+
+.card{
+  padding:0px 25px;
+  padding-bottom: 20px;
+  width:85%;
+  border: 0.5px solid #afafaf;
+  border-radius: 4px;
+  height: 270px;
+  box-shadow: 3px 3px 10px #cfcfcf;
+}
+
+.card-img-top{
+  width: 25%;
+  height: 25%;
+  margin: auto;
+}
+
+.card > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.card-heading{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.carousel{
+  margin-top: 50px;
+}
+
+.carousel-caption{
+  position: absolute;
+  bottom: 75%;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+  padding: 5px;
+  height:25%;
+}
+
+.carousel-caption > h2{
+  font-family: 'Satisfy', cursive;
 }
