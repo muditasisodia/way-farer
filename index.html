@@ -8,20 +8,19 @@
   <title>WayFarer: Home</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Bellefair');
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
 </head>
 
 <body>
 
   <div class="jumbotron">
 
-    <div class="nav nav-custom ">
+    <div class="nav navbar-inverse navbar-fixed-top">
 
       <div class="container">
 
-        <a href="index.html" class="navbar-brand nav-custom">
+        <a href="index.html" class="navbar-brand navbar-inverse">
         WayFarer
         </a>
 
@@ -35,7 +34,7 @@
         <div class="collapse navbar-collapse navHeaderCollapse">
           <!--navHeaderCollapse sort of acts like an id-->
 
-          <ul class="nav navbar-nav navbar-right nav-custom">
+          <ul class="nav navbar-nav navbar-right navbar-inverse">
 
             <li class="active"><a href="index.html">Home</a></li>
 
@@ -77,72 +76,153 @@
         </div>
       </form>
     </div>
+
+    <div class="logo">
+      <img src="images/logo.png" alt="WayFarer Logo">
+    </div>
+
   </div>
 
 
-<!--End of jumbotron header-->
-<div class="container">
-<div class="row">
+  <!--End of jumbotron header-->
+  <div class="container">
+    <div class="row">
 
-  <div class="col-lg-4">
-    <div class="card">
-      <img src="" alt="" class="card-img-top">
-        <div class="card-body">
-          <p class="card-text">
-            Components implemented:
-            <ul>
-              <li>Jumbotron</li>
-              <li>Navbar</li>
-              <li>Card</li>
-              <li>Carousel</li>
-              <li>Glyph Icons</li>
-            </ul>
-          </p>
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/home.png" alt="home" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">
+              <span class="card-heading">Components implemented:</span>
+              <ul>
+                <li>Jumbotron</li>
+                <li>Navbar</li>
+                <li>Card</li>
+                <li>Carousel</li>
+                <li>Glyph Icons</li>
+              </ul>
+            </p>
+          </div>
         </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/compass.png" alt="explore" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">
+              <span class="card-heading">Components implemented:</span>
+              <ul>
+                <li>Jumbotron</li>
+                <li>Navbar</li>
+                <li>Card</li>
+                <li>Carousel</li>
+                <li>Glyph Icons</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="images/pen-01.png" alt="blog" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">
+              <span class="card-heading">Components implemented:</span>
+              <ul>
+                <li>Jumbotron</li>
+                <li>Navbar</li>
+                <li>Card</li>
+                <li>Carousel</li>
+                <li>Glyph Icons</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
 
-  <div class="col-lg-4">
-    <div class="card">
-      <img src="" alt="" class="card-img-top">
-        <div class="card-body">
-          <p class="card-text">
-            Components implemented:
-            <ul>
-              <li>Jumbotron</li>
-              <li>Navbar</li>
-              <li>Card</li>
-              <li>Carousel</li>
-              <li>Glyph Icons</li>
-            </ul>
-          </p>
+  <!--Carousel-->
+  <div class="row">
+    <div class="col-md-offset-1 col-md-10">
+      <div id="c1" class="carousel slide" data-ride="carousel">
+
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#c1" data-slide-to="0" class="active"></li>
+          <li data-target="#c1" data-slide-to="1"></li>
+          <li data-target="#c1" data-slide-to="2"></li>
+          <li data-target="#c1" data-slide-to="3"></li>
+          <li data-target="#c1" data-slide-to="4"></li>
+        </ol>
+
+        <!--Wrapper for slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--Slide 1-->
+          <div class="item active">
+            <img src="images/Alaska.jpeg" alt="First slide">
+            <div class="carousel-caption">
+              <h2>Fairbanks, Alaska</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, expedita!</p>
+            </div>
+          </div>
+
+          <!--Slide 2-->
+          <div class="item">
+            <img src="images/Bali.jpeg" alt="Second slide">
+            <div class="carousel-caption">
+              <h2>Bedugul, Bali</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, expedita!</p>
+            </div>
+          </div>
+
+          <!--Slide 3-->
+          <div class="item">
+            <img src="images/Japan.jpeg" alt="Third slide">
+            <div class="carousel-caption">
+              <h2>Kyoto, Japan</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, expedita!</p>
+            </div>
+          </div>
+
+          <!--Slide 4-->
+          <div class="item">
+            <img src="images/Netherlands.jpeg" alt="Fourth slide">
+            <div class="carousel-caption">
+              <h2>Amsterdam, Netherlands</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, expedita!</p>
+            </div>
+          </div>
+
+          <!--Slide 5-->
+          <div class="item">
+            <img src="images/Tanzania.jpeg" alt="Fifth slide">
+            <div class="carousel-caption">
+              <h2>Arusha, Tanzania</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, expedita!</p>
+            </div>
+          </div>
         </div>
-    </div>
-  </div>
 
-
-  <div class="col-lg-4">
-    <div class="card">
-      <img src="" alt="" class="card-img-top">
-        <div class="card-body">
-          <p class="card-text">
-            Components implemented:
-            <ul>
-              <li>Jumbotron</li>
-              <li>Navbar</li>
-              <li>Card</li>
-              <li>Carousel</li>
-              <li>Glyph Icons</li>
-            </ul>
-          </p>
-        </div>
-    </div>
-  </div>
-
+        <!--Left and right controls-->
+        <a class="left carousel-control" href="#c1" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#c1" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right"></span>
+     <span class="sr-only">Next</span>
+   </a>
+      </div>
+      </div>
 </div>
-</div>
-
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
