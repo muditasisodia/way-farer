@@ -143,3 +143,21 @@ ul{
   font-weight: bold;
   padding-bottom: 10px;
 }
+
+#newsletter-signup{
+  height:500px;
+  background: url("images/newsletter.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.signup-form{
+  background: rgba(255, 161, 79, 0.6);
+}
+
+#newsletter-head{
+  font-family: 'Satisfy', cursive;
+  color: white;
+  padding-left: 5%;
+}
