@@ -1,6 +1,6 @@
-/*
-@import url('https://fonts.googleapis.com/css?family=Bellefair');
-*/
+body{
+  font-family: 'Lato', sans-serif;
+}
 .jumbotron{
   background: url("images/homeBG3.jpeg");
   background-size: cover;
@@ -69,6 +69,9 @@ ul{
   border-radius: 4px;
   height: 270px;
   box-shadow: 3px 3px 10px #cfcfcf;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-img-top{
@@ -111,11 +114,12 @@ ul{
 }
 
 #c2{
-  height:275px;
+  height:225px;
 }
 
 #quote-carousel-row{
-  background-color: #dfdfdf;
+  /*background-color: #dfdfdf;*/
+  background: linear-gradient(to right,rgba(222,222,222,0), rgba(222,222,222,1), rgba(222,222,222,0));
   margin-top: 50px;
 }
 
@@ -128,15 +132,14 @@ ul{
   color: #4f4f4f;
   padding-left: 55px;
   padding-right: 55px;
+  text-align: center;
 }
 
 #c2 #quote{
-  text-align: justify;
   padding-top: 10px;
 }
 
 #c2 #reviewer{
-  text-align: right;
   font-weight: bold;
   padding-bottom: 10px;
 }
