@@ -11,6 +11,10 @@
   background-attachment: fixed;
 }
 
+p{
+  margin: 0px;
+}
+
 html, body{
   height:100%;
 }
@@ -53,11 +57,9 @@ ul{
   list-style-type: none;
 }
 
-
 .form-control, .btn-default{
   background: rgba(255, 255, 255, 0.7);
 }
-
 
 .card{
   padding:0px 25px;
@@ -92,7 +94,7 @@ ul{
   font-size: 17px;
 }
 
-.carousel{
+#c1{
   margin-top: 50px;
 }
 
@@ -106,4 +108,35 @@ ul{
 
 .carousel-caption > h2{
   font-family: 'Satisfy', cursive;
+}
+
+#c2{
+  height:275px;
+}
+
+#quote-carousel-row{
+  background-color: #dfdfdf;
+  margin-top: 50px;
+}
+
+#c2 > a{
+  background: none;
+}
+
+#c2 p{
+  font-size: 20px;
+  color: #4f4f4f;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+#c2 #quote{
+  text-align: justify;
+  padding-top: 10px;
+}
+
+#c2 #reviewer{
+  text-align: right;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
