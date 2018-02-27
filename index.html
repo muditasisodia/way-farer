@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -286,7 +288,7 @@
       <div class="col-md-offset-7 col-md-5 signup-form">
         <h2 id="newsletter-head">Sign up for our newsletter!</h2>
 
-        <form action="/action_page.php">
+        <form>
 
           <div class="form-group row">
             <div class="col-md-6">
@@ -308,16 +310,69 @@
             <label for="bdate">Birth Date:</label>
             <input class="form-control" type="date" id="example-date-input">
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+
         </form>
+        <button id="btnSubmit"class="btn btn-default">Submit</button>
 
       </div>
     </div>
+<!--
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4 alert-col">
+    <div id="formAlert" class="alert alert-success collapse">
+      <a href="#" id="linkClose">&times;</a>
+      <strong>Great!</strong> You have successfully signed up for our newsletter!
+    </div>
+    </div>
+    </div>
+-->
+
   </div>
+
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-md-offset-4 col-md-4">
+
+  <div class="alert alert-success alert-col collapse alert-dismissible" id="formAlert">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>Great!</strong> You have successfully signed up for our newsletter!
+</div>
+</div>
+</div>
+</div>
+
+
+  <div class="page-footer">
+    <div class="col-md-3 copyr-wayfarer">
+    &copy; WayFarer
+  </div>
+    <div class="col-md-offset-5 col-md-4 connect-wayfarer">
+      <p>Connect with us:</p>
+      <p>
+      <i class="fab fa-facebook-square reach-us-icon fa-2x"></i>
+
+      <i class="fab fa-instagram reach-us-icon fa-2x"></i>
+
+      <i class="fab fa-twitter-square reach-us-icon fa-2x"></i>
+
+      <i class="far fa-envelope reach-us-icon fa-2x"></i>
+    </p>
+  </div>
+  </div>
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#btnSubmit').click(function(){
+      $('#formAlert').show('fade');
+    });
+  });
+  </script>
+
 </body>
 
 </html>

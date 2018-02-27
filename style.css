@@ -120,7 +120,7 @@ ul{
 #quote-carousel-row{
   /*background-color: #dfdfdf;*/
   background: linear-gradient(to right,rgba(222,222,222,0), rgba(222,222,222,1), rgba(222,222,222,0));
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 #c2 > a{
@@ -135,13 +135,13 @@ ul{
   text-align: center;
 }
 
-#c2 #quote{
-  padding-top: 10px;
+#quote{
+  padding-top: 5%;;
 }
 
 #c2 #reviewer{
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5%;
 }
 
 #newsletter-signup{
@@ -160,4 +160,24 @@ ul{
   font-family: 'Satisfy', cursive;
   color: white;
   padding-left: 5%;
+}
+
+#btnSubmit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.alert-col{
+  position: fixed;
+  bottom: 1%;
+}
+
+.page-footer{
+  padding: 10px;
+}
+
+.i{
+  margin: 2px;
 }
